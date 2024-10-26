@@ -138,11 +138,11 @@ header nav .login_up a.login:hover {
   color: #ffffff93;
   padding-left: 15px;
 }
-.form_login form .username_container input.custom_username:focus {
+.form_login form .username_container input.custom_username[type="text"]:focus {
   outline: none; /* Loại bỏ viền mặc định khi focus */
   color: white;
   font-size: 2rem;
-  padding: 10px;
+  padding: 30px;
   box-shadow: 5px 5px 10px #fcc33433;
 }
 .form_login form .username_container input.custom_username[type="text"] {
@@ -174,11 +174,14 @@ header nav .login_up a.login:hover {
   color: #ffffff93;
   padding-left: 15px;
 }
-.form_login form .password_container input.custom_password:focus {
+.form_login
+  form
+  .password_container
+  input.custom_password[type="password"]:focus {
   outline: none; /* Loại bỏ viền mặc định khi focus */
   color: white;
   font-size: 2rem;
-  padding: 10px;
+  padding: 30px;
   box-shadow: 5px 5px 10px #fcc33433;
 }
 .form_login form .password_container input.custom_password[type="password"] {
