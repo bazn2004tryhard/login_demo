@@ -85,7 +85,7 @@ header nav .login_up a.login:hover {
   border-radius: 10px;
 }
 .form_login:hover {
-  box-shadow: 5px 5px 10px #fcc33466;
+  box-shadow: 0 0 10px #fcc33466;
 }
 .form_login form {
   height: 100%;
